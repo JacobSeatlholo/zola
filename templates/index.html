@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-  This is my blog made with Zola.
-</h1>
+<div id="example">
+    <div id="team-schedule">
+        <div id="people">
+            <input checked type="checkbox" id="alex" value="1">
+            <input checked type="checkbox" id="bob" value="2">
+            <input type="checkbox" id="charlie" value="3">
+        </div>
+    </div>
+    <div id="scheduler"></div>
+</div>
 <p>Click <a href="/blog/">here</a> to see my posts.</p>
 {% endblock content %}
+
+
